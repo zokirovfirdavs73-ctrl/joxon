@@ -1,1 +1,73 @@
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 120px;
+}   
+
+.airpods{
+    position: relative;
+    right: 270px;
+    bottom: 90px;
+}
+
+.cont_text h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.cont_text p{
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #2B2626;
+}
+
+.cont_text button{
+    padding: 22px 82px;
+    border: none;
+    border-radius: 10px;
+    background-color: #10B981;
+    box-shadow: 0px 25px 50px 0px #845EC226;
+    margin-top: 70px;
+}
+
+.img_cont{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 220px;
+    
+}
+
+.round_img{
+    position: relative;
+    right: 20px;
+}
+.round_img2{
+    position: relative;
+    right: 40px;
+}
+
+.round_img3{
+    position: relative;
+    right: 60px;
+}
+
+.img_cont h3{
+    font-size: 26px;
+    color: #2B2626;
+    font-weight: 500;
+    position: relative;
+    right: 40px;
+}
+
+.count{
+    position: relative;
+    bottom: 80px;
+    left: 120px;
+    font-size: 31px;
+    font-weight: 600;
+}
