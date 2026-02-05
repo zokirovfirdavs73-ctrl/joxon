@@ -11,10 +11,20 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+<<<<<<< HEAD
     "lucide-react": "^0.563.0",
     "react": "^19.2.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.2.0"
+=======
+    "axios": "^1.13.4",
+    "countup": "^1.8.2",
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0"
+>>>>>>> origin/jahongir
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

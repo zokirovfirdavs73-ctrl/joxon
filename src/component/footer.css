@@ -1,0 +1,158 @@
+.footer {
+  padding: 40px 10%;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.cta-title {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.btn-start {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.divider {
+  height: 1px;
+  background-color: #eee;
+  margin-bottom: 60px;
+}
+
+.footer-mid {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.subscribe {
+  flex: 1;
+}
+
+.subscribe h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  max-width: 200px;
+}
+
+.input-box {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  max-width: 300px;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.btn-arrow {
+  background: #10b981;
+  color: white;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 80px;
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.nav-col h4 {
+  color: #10b981;
+  margin-bottom: 25px;
+}
+
+.nav-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-col li {
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.legal-links span {
+  color: #333;
+  margin-right: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.social-icon {
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .footer-mid {
+    flex-direction: column;
+  }
+
+  .nav-menu {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-top {
+    justify-content: center;
+  }
+
+  .nav-menu {
+    flex-wrap: wrap;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
